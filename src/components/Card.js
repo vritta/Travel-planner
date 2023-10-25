@@ -9,7 +9,7 @@ function Card(props){
         // description = props.tour.info;
     }
     return(
-        <div className="card bg-amber-300 shadow-[0px_3px_8px_0px_rgb(0,0,0,0.3)] rounded-[10px] w-[430px] mb-5 p-[15px] text-[20px]">
+        <div className="card h-max bg-amber-300 shadow-[0px_3px_8px_0px_rgb(0,0,0,0.3)] rounded-[10px] w-[430px] mb-5 p-[15px] text-[20px]">
             
             <div className="w-[400px] h-[350px]">
                 <img className="image w-full h-full object-cover" alt="img" src={props.tour.image}></img> 
